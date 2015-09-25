@@ -47,7 +47,7 @@ getHaterRegex = (term) ->
 
 module.exports = (robot) ->
   robot.hear getUsingRegex('ruby|python|java'), (msg) ->
-    msg.reply "You should rewrite it in Go."
+    msg.reply "You should rewrite it in Elixir."
 
   robot.hear getLoverRegex('mongo(db)?|go|clojure|riak|nosql'), (msg) ->
     msg.reply "Hipster."
